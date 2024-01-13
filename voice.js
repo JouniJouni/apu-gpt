@@ -1,3 +1,4 @@
+/*
 let is_enabled = false;
 let voces = [];
 let speech_pendientes = [];
@@ -103,3 +104,4 @@ getVoices( );
 speechSynthesis.onvoiceschanged = getVoices;
 
 export { talk };
+*/
