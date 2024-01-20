@@ -80,6 +80,7 @@ export class TwitchBot {
         })();
     }
 
+    /*
     async sayTTS(channel, text, userstate) {
         try {
             // Make a call to the OpenAI TTS model
@@ -102,6 +103,7 @@ export class TwitchBot {
             console.error('Error in sayTTS:', error);
         }
     }
+    */
 
     whisper(username, message) {
         // Use async/await syntax to handle promises
