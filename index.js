@@ -64,7 +64,7 @@ if (!SEND_USERNAME) {
 }
 
 // init global variables
-const MAX_LENGTH = 399
+const MAX_LENGTH = 499
 let file_context = "You are a helpful Twitch Chatbot."
 let last_user_message = ""
 
@@ -115,7 +115,7 @@ bot.onMessage(async (channel, user, message, self) => {
         let text = message.slice(COMMAND_NAME.length);
 
         if (SEND_USERNAME) {
-            text = "Message from user " + user.username + ": " + text
+            text = "Viesti käyttäjältä: " + user.username + ": " + text
         }
 
         // make openai call

@@ -72,7 +72,7 @@ export class TwitchBot {
         (async () => {
             try {
                 // Await for the message to be sent
-                await this.client.say(channel, message);
+                await this.client.say(channel,"!tts " + message);
             } catch (error) {
                 // Handle any errors that may occur
                 console.error(error);
